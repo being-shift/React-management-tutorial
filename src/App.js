@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+import React,{Component} from 'react';
+import Customer from './components/Customer';
 import './App.css';
 
-function App() {
-  return (
-    <Customer/>
-	);
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Customer/>
+      </div>
+    );
+  }
 }
 
 export default App;
