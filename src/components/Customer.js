@@ -1,4 +1,7 @@
 import React from 'react';
+//import TableRow from '@m
+
+
 class Customer extends React.Component{
     render() {
         return (
@@ -27,6 +30,7 @@ class Customerinfo extends React.Component{
                 <p>{this.props.birthday}</p>
                 <p>{this.props.gender}</p>
                 <p>{this.props.job}</p>
+                <p>수정됨</p>
 			</div>
 	);
     }
